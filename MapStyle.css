@@ -1,0 +1,9 @@
+@charset "utf-8";
+.mapdiv {
+    margin: auto;
+    width: 55%;
+}
+svg a #LKA2448 {
+    background-color: #F52428;
+    -webkit-text-stroke: rgb(229, 255, 0);
+}

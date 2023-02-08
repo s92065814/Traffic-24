@@ -1,15 +1,10 @@
 <?php
-
 @include 'config.php';
-
 session_start();
-
 if(!isset($_SESSION['admin_name'])){
    header('location:login_form.php');
 }
-
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,23 +12,18 @@ if(!isset($_SESSION['admin_name'])){
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>admin page</title>
-
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
 	<link href="style2.css" rel="stylesheet" type="text/css">
-
 </head>
 <body>
-   
 <div class="containerphp">
    <div class="content">
       <h3>Hi, <span><?php echo $_SESSION['admin_name'] ?></span></h3>
       <h1>welcome</h1>
       <p>You Logged in as Admin</p>      
       <a href="logout.php" class="btn">logout</a>
- 
-
 <div class="container-fluid">
 		<div class="container">
 	<nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="Index.html"><img src="images/24Logo.png" width="198" height="85" alt=""/></a>
@@ -67,8 +57,6 @@ if(!isset($_SESSION['admin_name'])){
   <div class="col-md-3">
     <div class="card col-md-8 offset-md-2"> <a href="https://www.dmt.gov.lk/index.php?option=com_content&view=category&layout=blog&id=14&Itemid=206&lang=en" target="_blank" ><img class="card-img-top" src="images/car3.jpg" alt="Card image cap" height="150"> </a>   </div>
   </div>
-
-		
 		<footer>
 			<br>
 		<br>
@@ -83,8 +71,6 @@ if(!isset($_SESSION['admin_name'])){
 		</div>
 			</div>
 	</div>
-
-
    </div>
 </div>
 </body>

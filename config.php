@@ -1,5 +1,3 @@
 <?php
-
-$conn = mysqli_connect('localhost','root','','user_db');
-
+$conn = mysqli_connect('localhost','root','','travel24');
 ?>
